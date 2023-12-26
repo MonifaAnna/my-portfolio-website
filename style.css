@@ -27,6 +27,16 @@ button{
 .second-div{
     margin-left: 190px;
     margin-top: 150px;
+    overflow:hidden;
+    animation:
+        typing 2s steps(14),
+        cursor .4s step-end infinite alternate;     
+}
+@keyframes cursor{
+    50%{ border-color: transparent;}
+}
+@keyframes typing{
+    from{ width: ;}
 }
 h1{
     font-size: 70px;
@@ -37,6 +47,8 @@ h1{
     margin-top: 50px;
     border-radius: 25px;
     width: 150px;
+    color: white;
+    font-size: 20px;
 }
 a{
     text-decoration: none;

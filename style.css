@@ -8,8 +8,10 @@ width: 1400px;
     height: 700px;
     background-image:url(Screenshot_1.png);
     margin-left: 100px;
-
+  
 }
+
+
 span{
     color:orange;
 }
@@ -27,17 +29,10 @@ button{
 .second-div{
     margin-left: 190px;
     margin-top: 150px;
-    overflow:hidden;
-    animation:
-        typing 2s steps(14),
-        cursor .4s step-end infinite alternate;     
+     
 }
-@keyframes cursor{
-    50%{ border-color: transparent;}
-}
-@keyframes typing{
-    from{ width: ;}
-}
+
+
 h1{
     font-size: 70px;
     
